@@ -9,4 +9,7 @@ def main(n, x):
     Returns:
         int: the value of the expression
     """
-    return
+    n = 3
+    x = 6
+    result= pow((x)**2 + (n)**2)
+    return float(result)

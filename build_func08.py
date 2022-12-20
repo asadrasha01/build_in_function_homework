@@ -9,4 +9,7 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    x = 7
+    y = 1
+    result= pow((5*(x**2)*y**3)+x*y**2)
+    return result

@@ -9,4 +9,7 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    x = 8
+    y = 4
+    result= pow(3*(y**1/2) + (x**2/3))
+    return round(result)
